@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./src/script.js"></script>
-    <script src="https://kit.fontawesome.com/b2c8e261f8.js" crossorigin="anonymous"></script>
-    <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+    <script src="src/script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <h1 id="city"></h1>
+    <input type="search" id="searchCity" placeholder="Pesquise a cidade">
+    <h1 id="city"></h1>
+    <div class="weatherImg">
+        <img id="weatherSvg" src="">
+    </div>
+    <div class="wrapper">
+        <div class="weatherInfos">
             <p id="temperature"></p>
-            <p id="weather" class="weatherInfo"></p>
-            <p id="humidity" class="weatherInfo"></p>
-            <p id="wind" class="weatherInfo"></p>
+            <p id="weather"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
         </div>
     </div>
 </body>
