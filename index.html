@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather</title>
     <link rel="stylesheet" href="style.css">
     <script src="src/script.js"></script>
 </head>
 <body>
-    <input type="search" id="searchCity" placeholder="Pesquise a cidade">
-    <h1 id="city"></h1>
-    <div class="weatherImg">
-        <img id="weatherSvg" src="">
-    </div>
-    <div class="wrapper">
-        <div class="weatherInfos">
-            <p id="temperature"></p>
-            <p id="weather"></p>
-            <p id="humidity"></p>
-            <p id="wind"></p>
+    <div class="content">
+        <div class="centerSearch">
+            <input type="search" id="searchCity" class="topInfos" placeholder="Pesquise a cidade">
+        </div>
+        <h1 id="city" class="topInfos"></h1>
+        <div class="wrapper">
+            <div class="weatherInfos">
+                <img id="weatherImg" src="img/cloudy.svg">
+                <p id="temperature"></p>
+                <p id="weather"></p>
+                <p id="humidity"></p>
+                <p id="wind"></p>
+            </div>
         </div>
     </div>
 </body>
