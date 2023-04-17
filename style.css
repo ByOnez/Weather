@@ -13,7 +13,6 @@
 }
 
 body {
-    display: flex;
     background-image: url("./img/background.png");
     background-size: cover;
     position: static;
@@ -21,7 +20,6 @@ body {
     overflow-y: hidden;
     overflow: hidden;
     color: white;
-    flex-direction: column;
     overflow: hidden;
 }
 
@@ -30,7 +28,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 65px;
+    height: 80vh;
 }
 
 #searchCity {
@@ -41,7 +39,6 @@ body {
     border-radius: 30px;
     font-size: 16px;
     outline: none;
-    margin: auto;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -58,40 +55,20 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 #city {
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-}
-
-#weatherImg {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 45%;
-    height: 45%;
+    padding: 35px 0px 15px 0px;
 }
 
 .weatherInfos {
     justify-content: center;
     align-items: center;
-    height: 100vh;
     text-align: center;
 }
 
 #temperature {
     font-size: 95px;
-    padding-top: 300px;
 }
 
-#weather {
-    font-size: 25px;
-}
-
-#humidity {
-    font-size: 25px;
-}
-
-#wind {
-    font-size: 25px;
+#weather, #humidity, #wind {
+    font-size: 28px;
+    padding-bottom: 5px;
 }
