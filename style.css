@@ -1,11 +1,3 @@
-/*  
-    Marrom: #423629
-    Azul escuro: #4C4C9D
-    Azul claro: #28AFB0
-    roxo: #AF9BB6
-    amarelo: #EEC584
-*/
-
 * {
     padding: 0;
     margin: 0;
@@ -32,12 +24,12 @@ body {
 }
 
 #searchCity {
-    width: 415px;
-    height: 50px;
-    padding: 2px 15px 2px 15px;
+    width: 25.9375rem;
+    height: 3.125rem;
+    padding: 0.125rem 0.9375rem 0.125rem 0.9375rem;
     border: none;
-    border-radius: 30px;
-    font-size: 16px;
+    border-radius: 1.875rem;
+    font-size: 1rem;
     outline: none;
 }
 
@@ -49,13 +41,13 @@ input[type="search"]::-webkit-search-decoration {
 
 @media screen and (max-width: 768px) {
     #searchCity {
-      width: 325px;
-      margin: 10px 0;
+      width: 20.3125rem;
+      margin: 0.625rem;
     }
 }
 
 #city {
-    padding: 35px 0px 15px 0px;
+    padding: 2.1875rem 0rem 0.9375rem 0rem;
 }
 
 .weatherInfos {
@@ -65,10 +57,10 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 #temperature {
-    font-size: 95px;
+    font-size: 5.9375rem;
 }
 
 #weather, #humidity, #wind {
-    font-size: 28px;
-    padding-bottom: 5px;
+    font-size: 1.75rem;
+    padding-bottom: 0.3125rem;
 }
