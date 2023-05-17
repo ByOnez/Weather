@@ -1,4 +1,4 @@
-const apikey = "8c10597313775f5b4020538716c600ff"
+const apikey = ""
 
 document.addEventListener("DOMContentLoaded", function() {
   let searchCity = document.getElementById("searchCity")
