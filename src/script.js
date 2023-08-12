@@ -10,17 +10,17 @@ document.addEventListener("DOMContentLoaded", function() {
     const celsius = kelvin - 273.15;
     const windKmh = wind * 3.6;
 
-    let cityName = document.getElementById("city");
-    let temperatureValue = document.getElementById("temperature");
-    let weatherDescription = document.getElementById("weather");
-    let humidityValue = document.getElementById("humidity");
-    let windSpeed = document.getElementById("wind");
+    let cityElement = document.getElementById("city");
+    let temperatureElement = document.getElementById("temperature");
+    let weatherElement = document.getElementById("weather");
+    let humidityElement = document.getElementById("humidity");
+    let windElement = document.getElementById("wind");
 
-    cityName.innerHTML = city.toUpperCase();
-    temperatureValue.innerHTML = `${celsius.toFixed(0)}°C`;
-    weatherDescription.innerHTML = `${weather}`;
-    humidityValue.innerHTML = `Humidade ${humidity}%`;
-    windSpeed.innerHTML = `Vento ${windKmh.toFixed(0)} Km/h`;
+    cityElement.innerHTML = city.toUpperCase();
+    temperatureElement.innerHTML = `${celsius.toFixed(0)}°C`;
+    weatherElement.innerHTML = `${weather}`;
+    humidityElement.innerHTML = `Humidade ${humidity}%`;
+    windElement.innerHTML = `Vento ${windKmh.toFixed(0)} Km/h`;
   }
 
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=pt_br&appid=${apikey}`)
