@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     cityElement.innerHTML = city.toUpperCase()
     temperatureElement.innerHTML = `${celsius.toFixed(0)}°C`
     weatherElement.innerHTML = `${weather}`
-    humidityElement.innerHTML = `Humidade ${humidity}%`
+    humidityElement.innerHTML = `Umidade ${humidity}%`
     windElement.innerHTML = `Vento ${windKmh.toFixed(0)} Km/h`
   }
 
